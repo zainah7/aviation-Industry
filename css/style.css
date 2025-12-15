@@ -1,7 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+@font-face {
+    font-family: 'BruumFY';
+    src: url('../images/BruumFY-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BruumFY';
+    src: url('../images/BruumFY-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BruumFY';
+    src: url('../images/BruumFY-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'BruumFY', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #fff;
@@ -106,7 +127,7 @@ body {
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
-    border-left: 2px solid #555;
+    /* border-left: 2px solid #555; */ /* Removed as per user request */
     padding: 0 5px;
     text-align: center;
     flex-grow: 1;
@@ -180,6 +201,7 @@ body {
     line-height: 1.1;
     font-weight: 700;
     letter-spacing: -1px;
+    font-family: 'BruumFY', sans-serif;
 }
 
 .stats {
@@ -386,6 +408,7 @@ body {
     line-height: 1.4;
     border-left: 8px solid #0171B9;
     word-break: break-word;
+    font-family: 'BruumFY', sans-serif;
 }
 
 .event-card h3.lines-2 {
@@ -826,6 +849,7 @@ body {
     color: #fff;
     margin-bottom: 6px;
     line-height: 1;
+    font-family: 'BruumFY', sans-serif;
 }
 
 .events-schedule-title .events-line-big {
@@ -837,6 +861,7 @@ body {
     line-height: 1;
     margin-bottom: 20pxpls help;
     color: #fff;
+    font-family: 'BruumFY', sans-serif;
 }
 
 
@@ -913,7 +938,7 @@ body {
         padding: 20px 0;
         height: calc(100vh - 130px); /* Fill remaining viewport height */
         overflow-y: auto;
-        border-top: 1px solid #eee;
+        /* border-top: 1px solid #eee; */ /* Removed as per user request */
         align-items: center; /* Center items horizontally */
     }
 
@@ -923,13 +948,13 @@ body {
 
     .nav a {
         border-left: none;
-        border-bottom: 1px solid #eee;
+        /* border-bottom: 1px solid #eee; */ /* Removed as per user request */
         padding: 15px 20px;
-        text-align: center; /* Center text within each link */
-        flex-grow: unset; /* Reset flex-grow for vertical list */
+        text-align: center;
+        flex-grow: unset;
         font-size: 18px;
-        width: 100%; /* Ensure links take full width for consistent centering */
-        transition: all 0.2s ease; /* Reduced duration */
+        width: 100%;
+        transition: all 0.2s ease;
     }
 
     .hero {
@@ -939,7 +964,7 @@ body {
     }
 
     .hero::before {
-        width: 270px;
+        display: none; /* Hide the blue overlay for full width background image on mobile */
     }
 
     .hero-content {
@@ -1316,7 +1341,7 @@ body {
         font-size: 12px;
         font-weight: bold;
         color: #0171B9;
-        border-bottom: 2px solid #e5e7eb;
+        /* border-bottom: 2px solid #e5e7eb; */ /* Removed as per user request */
         margin-bottom: 5px;
     }
 
@@ -1324,14 +1349,16 @@ body {
         font-size: 12px;
         padding: 10px 5px;
         border-left: none;
-        border-bottom: 2px solid #555;
+        /* border-bottom: 2px solid #555; */ /* Removed as per user request */
         transition: all 0.15s ease; /* Reduced duration */
     }
 
     .hero {
-        margin: 0;
+        margin: 0; /* This already sets full width in terms of margin */
         min-height: 40vh;
         height: auto;
+        width: 100%; /* Explicitly set to full width */
+        padding: 0; /* Remove any padding that might restrict width */
     }
 
     .hero-content {

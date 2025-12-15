@@ -154,32 +154,32 @@ const Events = () => {
         <section className="events">
             <div className="event-grid">
                 <div className="event-card">
-                    <img src="images/Asset 41.png" alt="GLOBAL AUTOMOTIVE INDUSTRY WEEK IN DUBAI" />
+                    <img src="images/Asset 45.png" alt="GLOBAL AUTOMOTIVE INDUSTRY WEEK IN DUBAI" />
                     <h3>GLOBAL AUTOMOTIVE<br/>INDUSTRY WEEK IN<br/>DUBAI</h3>
                     <p>4-7 May 2026, Dubai – UAE</p>
                 </div>
                 <div className="event-card">
-                    <img src="images/Asset 41.png" alt="GLOBAL AUTONOMOUS VEHICLE LEGISLATION SUMMIT" />
+                    <img src="images/Asset 46.png" alt="GLOBAL AUTONOMOUS VEHICLE LEGISLATION SUMMIT" />
                     <h3>GLOBAL AUTONOMOUS<br/>VEHICLE LEGISLATION<br/>SUMMIT</h3>
                     <p>4 May 2026, Dubai – UAE</p>
                 </div>
                 <div className="event-card">
-                    <img src="images/Asset 41.png" alt="GLOBAL AUTOMOTIVE MANUFACTURER SUMMIT" />
+                    <img src="images/Asset 47.png" alt="GLOBAL AUTOMOTIVE MANUFACTURER SUMMIT" />
                     <h3>GLOBAL AUTOMOTIVE<br/>MANUFACTURER<br/>SUMMIT</h3>
                     <p>4 May 2026, Dubai – UAE</p>
                 </div>
                 <div className="event-card">
-                    <img src="images/Asset 41.png" alt="GLOBAL AUTOMOTIVE CONCEPT DESIGNERS’ SUMMIT" />
+                    <img src="images/Asset 42.png" alt="GLOBAL AUTOMOTIVE CONCEPT DESIGNERS’ SUMMIT" />
                     <h3>GLOBAL AUTOMOTIVE<br/>CONCEPT DESIGNERS’<br/>SUMMIT</h3>
                     <p>5 May 2026, Dubai – UAE</p>
                 </div>
                 <div className="event-card">
-                    <img src="images/Asset 41.png" alt="GLOBAL AUTOMOTIVE SPARE PARTS MANUFACTURERS’ SUMMIT" />
+                    <img src="images/Asset 43.png" alt="GLOBAL AUTOMOTIVE SPARE PARTS MANUFACTURERS’ SUMMIT" />
                     <h3>GLOBAL AUTOMOTIVE<br/>SPARE PARTS<br/>MANUFACTURERS’<br/>SUMMIT</h3>
                     <p>6 May 2026, Dubai – UAE</p>
                 </div>
                 <div className="event-card">
-                    <img src="images/Asset 41.png" alt="DEBATE: CONVENTIONAL CAR VS. ELECTRICAL AUTOMOTIVE SUMMIT" />
+                    <img src="images/Asset 44.png" alt="DEBATE: CONVENTIONAL CAR VS. ELECTRICAL AUTOMOTIVE SUMMIT" />
                     <h3>DEBATE: CONVENTIONAL<br/>CAR VS. ELECTRICAL<br/>AUTOMOTIVE SUMMIT</h3>
                     <p>6 May 2026, Dubai – UAE</p>
                 </div>
