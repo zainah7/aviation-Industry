@@ -779,38 +779,6 @@ body {
     height: 70px;
 }
 
-.calendar-icon-base {
-    width: 55px;
-    height: 65px;
-    border: 2.5px solid #fff;
-    border-radius: 3px;
-    position: relative;
-    background: #0171B9;
-}
-
-.calendar-icon-base::before {
-    content: '';
-    position: absolute;
-    top: 6px;
-    left: 3px;
-    right: 3px;
-    height: 10px;
-    border-bottom: 2px solid #fff;
-}
-
-.calendar-icon-base::after {
-    content: '';
-    position: absolute;
-    top: 20px;
-    left: 5px;
-    right: 5px;
-    bottom: 5px;
-    background-image: 
-        radial-gradient(circle, #fff 1.5px, transparent 1.5px);
-    background-size: 7px 7px;
-    background-position: 0 0;
-}
-
 .clock-icon-overlay {
     position: absolute;
     bottom: 0px;
@@ -850,28 +818,14 @@ body {
     margin: 0;
     text-align: left;
     line-height: 1.2;
-}
-
-.events-schedule-title .events-line-small {
-    display: block;
-    font-size: 28px;
+    font-size: 32px; /* Adjusted from events-line-big */
     font-weight: 700;
-    color: #fff;
-    line-height: 1.6;
-    margin-bottom: 1px;
-    font-family: 'BruumFY', sans-serif;
-}
-
-.events-schedule-title .events-line-big {
-    display: block;
-    font-size: 32px;
-    font-weight: 700;
-    letter-spacing: 0.1px;
+    letter-spacing: 0.1px; /* From events-line-big */
     text-transform: uppercase;
-    line-height: .5;
-    color: #fff;
     font-family: 'BruumFY', sans-serif;
 }
+
+
 
 
 
@@ -1159,42 +1113,23 @@ body {
         height: 60px;
     }
 
-    .calendar-icon-base {
-        width: 45px;
-        height: 55px;
-    }
+  
 
     .clock-icon-overlay {
         width: 24px;
         height: 24px;
     }
 
-    .events-intro-content {
-        padding: 15px 20px;
-        width: auto;
-        flex: 1;
-        height: 100%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-    }
-
     .events-schedule-title {
         text-align: left;
         width: 100%;
+        font-size: 24px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        line-height: 1.2;
     }
 
-    .events-schedule-title .events-line-small {
-            font-size: 12px;
-            margin-top: 0;
-            margin-bottom: 4px;
-            line-height: 1.3;    }
 
-    .events-schedule-title .events-line-big {
-            font-size: 24px;
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
-            line-height: 1;    }
 
     .footer-middle {
         grid-template-columns: repeat(2, 1fr);
@@ -1513,11 +1448,6 @@ body {
         height: 50px;
     }
 
-    .calendar-icon-base {
-        width: 38px;
-        height: 48px;
-    }
-
     .clock-icon-overlay {
         width: 20px;
         height: 20px;
@@ -1533,19 +1463,13 @@ body {
     .events-schedule-title {
         text-align: left;
         width: 100%;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        line-height: 1.2;
     }
 
-    .events-schedule-title .events-line-small {
-            font-size: 10px;
-            margin-top: 0;
-            margin-bottom: 3px;
-            line-height: 1.3;    }
 
-    .events-schedule-title .events-line-big {
-            font-size: 18px;
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
-            line-height: 1;    }
 
     .footer-middle {
         grid-template-columns: 1fr;

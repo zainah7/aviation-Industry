@@ -132,18 +132,15 @@ const EventsIntro = () => {
     return (
         <div className="events-intro-section">
             <div className="events-intro-left-bar"></div>
+
             <div className="events-intro-red-square">
-                <div className="calendar-clock-icon">
-                    <div className="calendar-icon-base"></div>
-                    <div className="clock-icon-overlay"></div>
-                </div>
+                <img src="images/Asset 41.png" alt="Calendar" className="events-calendar-icon" />
             </div>
             <div className="events-intro-content">
-                <h2 className="events-schedule-title">
-                    <span className="events-line-small">• The Global Aviation Industry Week in Dubai</span>
-                    <span className="events-line-big">EVENTS SCHEDULE</span>
-                </h2>
-            </div>
+             <h2 className="events-schedule-title">
+             • The Global Aviation Industry Week in Dubai<br/>EVENTS SCHEDULE
+             </h2>            
+             </div>
             <div className="events-intro-right-bar"></div>
         </div>
     );
